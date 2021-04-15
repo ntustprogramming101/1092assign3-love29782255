@@ -209,7 +209,6 @@ void draw() {
 
     if (keyPressed != true) {
       if (moveX > 0) {
-        println(moveX, hogX);
         hogX = ceil(hogX/block)*block;
         moveX = 0;
       } else hogX = floor(hogX / block)*block;
